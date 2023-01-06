@@ -239,7 +239,8 @@ color: white;
   display: flex;
   float: left;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 30px;
+  font-size: 200%;
 }
 
 .phone-container a:link, .phone-container a:visited {
