@@ -304,6 +304,9 @@ color: white;
   font-size: 100%;
   font-weight: 600;
 }
+.footer-btn2 {
+  font-size: 150%;
+}
 .topnav-button1, .topnav-button2
   {
     margin:0;
@@ -326,7 +329,7 @@ color: white;
 
 .wrapper {
   min-height: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   overflow: hidden;
 }
 
