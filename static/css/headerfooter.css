@@ -1,0 +1,327 @@
+* { box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Roboto';
+}
+
+.topnav-image {
+  border-bottom: 10px solid #DDAA44;
+  height: 15vw;
+}
+
+@media screen and (min-width: 1300px) {
+.topnav-image {
+  margin-bottom: 1vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1300px) {
+/*Navbar-knapper enkeltvis*/
+.topnav-button1, .topnav-button2, .topnav-button3, .topnav-button4, .topnav-button5 {
+  width: 10vw;
+  height: 5vw;
+  font-size: 1.5vw;
+  background-color: rgba(255, 255, 255, 0);
+  border-width: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+.topnav-button1, .topnav-button2, .topnav-button3, .topnav-button4, .topnav-button5 {
+  width: 180px;
+  height: 80px;
+  border-radius: 40px;
+  font-size: 200%;
+  background-color: rgba(255, 255, 255, 0);
+  border-width: 0;
+  }
+}
+
+.topnav .topnav-buttons {
+  float:  right;
+}
+
+/*Navbarren (minus billede)*/
+.topnav {
+  background-color: #0b0535;
+  height: 5vw;
+  width: 80%;
+  position: absolute;
+  top: 13vw;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0px 5px 10px 1px rgb(0, 0, 0);
+}
+
+.topnav-container .topnav-logo {
+  height: 5vw;
+  width: 25%;
+  float: left;
+}
+
+.topnav-button1:hover, .topnav-button2:hover, .topnav-button3:hover, .topnav-button4:hover, .topnav-button5:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 8px 0.5px rgb(0, 0, 0);
+}
+
+.topnav a:link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.topnav a:visited{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.btn-active a:visited, .btn-active a:link {
+    color: red;
+}
+    
+.btn-active a:hover {
+color: white;
+}
+     
+.topnav a {
+    display: block;
+    height: 5vw;
+    line-height: 5vw;
+}
+    
+.topnav.topnav.responsive a {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+}
+
+/*Kilde: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+/* Hide the link that should open and close the topnav on small screens */
+.topnav-container .icon {
+  display: none;
+}
+
+@keyframes growDown {
+  0% {
+      transform: scaleY(0)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1300px) {
+    .topnav-button1, .topnav-button2, .topnav-button3, .topnav-button4, .topnav-button5 {
+    display: none;
+  }
+  .topnav-container .icon {
+    display: inline-block;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    color: rgb(0, 0, 0);
+    z-index: 3;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1300px) {
+    .topnav.responsive .topnav-buttons { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 300px;
+    width: 100%;
+    background-color: rgb(134, 134, 134);
+
+    animation: growDown 0.5s ease-in-out forwards;
+    transform-origin: top center;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    z-index: 2;
+  }
+  .topnav.responsive .topnav-button1 {
+    display: block;
+  }
+
+   .topnav.responsive .topnav-button2 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .topnav.responsive  .topnav-button3 {
+    display: block;
+  }
+}
+
+/*Width and track */
+::-webkit-scrollbar {
+  width: 5px;
+  background:rgb(255, 255, 255);
+  border-radius: 10px;
+}
+  
+/*Handle*/
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.rotate{
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.rotate.down{
+  -moz-transform:rotate(-450deg);
+  -webkit-transform:rotate(-450deg);
+  transform:rotate(-450deg);
+}
+
+.footer {
+  background: #0B0535;;
+  width: 100%;
+  padding: 5px;
+  z-index: 3;
+  display: inline-block;
+  box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+}
+
+.button4 {
+  font-family: bilo, sans-serif;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 200%;
+}
+
+.mail-container {
+  display: flex;
+  float: left;
+  align-items: center;
+}
+
+.some-container {
+  display: flex;
+  float: right;
+  margin-right: 2%;
+  align-items: center;
+}
+
+.fa-facebook-square {
+  margin-right: 50px;
+}
+
+@media screen and (min-width: 1300px) {
+  .footer {
+   position: fixed;
+   bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+.topnav-image {
+  height: 30vw;
+}
+.topnav {
+  top: 26vw;
+  height: 10vw;
+}
+.topnav-container .topnav-logo {
+  height: 10vw;
+  width: 90%;
+  margin-left: 5%; 
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 75px;
+}
+.mail-container {
+  display: flex;
+  justify-content: center;
+}
+.some-container {
+  display: flex;
+  justify-content: center;
+}
+.button4 {
+  font-size: 100%;
+  font-weight: 600;
+}
+.topnav-button1, .topnav-button2
+  {
+    margin:0;
+  }
+}
+
+.fa-facebook-square:hover, .fa-instagram:hover, .fa-envelope:hover, .phone:hover {
+  animation: jump 1s;
+  scale: 1.1;
+}
+
+@keyframes jump {
+  100% { transform: translate(0%, -10%); }
+}
+
+@keyframes fadeIn { 
+  0% { opacity: 0; }
+  100% { opacity:1; }
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.footer,
+.push {
+  height: 50px;
+  overflow: hidden;
+}
+
+.overflow-wrapper {
+  overflow: hidden;
+}
+
+
+
+
+
+
+

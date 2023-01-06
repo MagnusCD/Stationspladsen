@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medicine on My New Hugo Site</title>
+    <link>http://example.org/tags/medicine/</link>
+    <description>Recent content in Medicine on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Jan 2023 21:29:12 +0100</lastBuildDate><atom:link href="http://example.org/tags/medicine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why your fitness program never works out the way you plan</title>
+      <link>http://example.org/posts/welcome/</link>
+      <pubDate>Tue, 03 Jan 2023 21:29:12 +0100</pubDate>
+      
+      <guid>http://example.org/posts/welcome/</guid>
+      <description>How fitness equipment can help you predict the future. 12 uses for weight loss supplements. What the world would be like if vaccine ingredients didn&amp;rsquo;t exist. Why your preventative medicine never works out the way you plan. Why do people think fitness magazines are a good idea? 15 movies with unbelievable scenes about cholesterol levels. Fitness magazines by the numbers. What wikipedia can&amp;rsquo;t tell you about vaccination schedules. Why our world would end if health care solutions disappeared.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,270 @@
+
+.typewriter {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 2vw;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 300%;
+  width: 1000px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/*https://css-tricks.com/snippets/css/typewriter-effect/*/
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #DDAA44; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/*
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+*/
+
+.image1 {
+  width: 100%;
+  height: 20vw;
+}
+
+.image2 {
+  width: 100%;
+  height: 20vw;
+}
+
+.image3 {
+  width: 100%;
+  height: 20vw;
+}
+
+/*
+.grid-container > * {
+  padding: 20px;
+  border: 5px solid rgb(198,164,154);
+  background-color: rgba(198,164,154,.2);
+  border-radius: 5px;
+}
+*/
+
+.grid-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.one {
+  grid-column: 1/1;
+  grid-row: 1/3;
+  height: fit-content;
+}
+
+.two-three {
+  grid-column: 2 / span 3;
+  grid-row: 1/3;
+  text-align: center;
+  height: fit-content;
+}
+
+.four-five {
+  grid-column: 1 / span 2;
+  grid-row: 2/3;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 20vw;
+}
+
+.six{
+  grid-column: 3/3;
+  grid-row: 2/3;
+  height: fit-content;
+}
+
+.seven {
+  grid-row: 3/3;
+  height: fit-content;
+}
+
+.eight-nine {
+  grid-column: 2 / span 3;
+  grid-row: 3/3;
+  text-align: center;
+  height: fit-content;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+.box h1 {
+  font-size: 300%;
+  color: #DDAA44;
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#Maps {
+  width: 80%;
+  height: 20vw;
+  display: flex;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1300px) {
+.typewriter {
+  font-size: 70%;
+  width: 250px;
+  top: 8vw;
+}
+.grid-container {
+  display: flex;
+  flex-direction: column;
+}
+.one {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  margin-bottom: 50px;
+}
+.two-three {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+.four-five {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+
+}
+.six{
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  margin-bottom: 50px;
+
+}
+.seven {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  margin-bottom: 50px;
+
+}
+.eight-nine {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.1);
+  }
+  .image1 {
+    width: 90%;
+    height: 40vw;
+  }
+  
+  .image2 {
+    width: 90%;
+    height: 40vw;
+  }
+  
+  .image3 {
+    width: 90%;
+    height: 40vw;
+  }
+
+  #Maps {
+  width: 90%;
+  height: 40vw;
+  }
+}
+
+
+
+
+
+
+
+
+

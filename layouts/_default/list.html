@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {{ .Title }} </title>
+    <link rel="stylesheet" href="/css/headerfooter.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script src="/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5e2cb9f1be.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css/">
+    
+
+</head>
+
+
+<script>
+    $(function() {$("#myIcon").click(function() {
+    $('.rotate').toggleClass("down");
+    });
+    });
+</script>
+
+
+
+<body>
+
+<div class="wrapper">
+
+
+<header>
+    <div class="topnav-container">
+
+        <img class="topnav-image" src="/images/stationspladsen-hero-image.jpg" width="100%;"><img>
+        
+
+      
+        
+        <div class="topnav" id="myTopnav">
+            <img class="topnav-logo" src="/images/stationspladsen-logo.jpg"><img>
+        
+            <div class="topnav-buttons">
+                <button class="topnav-button1"><a href="/index.html/">Hjem</button></a>
+                <button class="topnav-button2 btn-active"><a href="/posts/">Nyheder</button></a>
+                <button class="topnav-button3"><a href="/menukort.html/">Menukort</button></a>
+            </div>
+
+
+            
+            <!--Kilde: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+            <a href="javascript:void(0);" class="icon rotate" id="myIcon" style="color: black;" onclick="One();">
+            <i class="fa fa-bars fa-2x"></i></a>
+        </div>
+  </div>
+</header>
+
+
+
+
+<main class="site-main">
+    <div class="container">
+        <section class="post-list">
+            {{ range .Paginator.Pages }}
+            <article class="single-post border-bottom pb-4">
+                <h2 class="entry-title mb-4">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
+
+                <div class="post-meta mb-4">
+                    <span class="post-author"> Posted by: {{ .Params.author }}</span>
+                    <span class="post-date">
+                        <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+                    </span>
+                    <span class="post-tags">
+                        {{ range (.GetTerms "tags") }}
+                            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+                        {{ end }}
+                    </span>
+                </div>
+                <div class="entry-content">{{ .Summary }} </div>
+            </article>
+            {{ end }}
+            <div class="pt-4">
+                {{ template "_internal/pagination.html" . }}
+            </div>
+        </section>
+    </div>   
+</main>
+
+
+<div class="push"></div>
+
+</div>
+
+
+<footer>
+    <div class="footer">
+
+        <div class="mail-container">
+            <text class="button4" style="padding: 0; margin-right: 5px;">cafestationspladsen@gmail.com</text>
+            <a href="mailto:cafestationspladsen@gmail.com"> <i class="fa-solid fa-envelope fa-2x" style="color: white;"></i></a>
+        </div>
+      
+        <div class="some-container">
+            <a href="https://www.facebook.com/stationspladsen" target="_blank"> <i class="fa fa-facebook-square fa-2x" style="color: white;"></i></a>
+            <a href="https://www.instagram.com/cafestationspladsen/" target="_blank"> <i class="fa-brands fa-instagram fa-2x" style="color: white;"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/js/bootstrap.min.js/"></script>
+</body>
+</html>

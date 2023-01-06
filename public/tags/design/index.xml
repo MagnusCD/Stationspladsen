@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on My New Hugo Site</title>
+    <link>http://example.org/tags/design/</link>
+    <description>Recent content in Design on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jan 2023 00:28:36 +0100</lastBuildDate><atom:link href="http://example.org/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>16 facts about living room decors that&#39;ll keep you up at night</title>
+      <link>http://example.org/posts/post-4/</link>
+      <pubDate>Wed, 04 Jan 2023 00:28:36 +0100</pubDate>
+      
+      <guid>http://example.org/posts/post-4/</guid>
+      <description>Why rent houses are killing you. 16 things your boss expects you know about bathroom designs. Why do people think bathroom designs are a good idea? The unconventional guide to apartment guides. The 15 worst songs about living room decors. Why the world would end without small house plans. Interior design ideas by the numbers. The only luxury home resources you will ever need. Will house plans ever rule the world?</description>
+    </item>
+    
+  </channel>
+</rss>
