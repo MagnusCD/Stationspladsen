@@ -240,6 +240,9 @@ color: white;
   float: left;
   align-items: center;
   margin-left: 30px;
+}
+
+.phone-container p{
   font-size: 200%;
 }
 
