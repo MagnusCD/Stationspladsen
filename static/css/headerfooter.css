@@ -329,13 +329,13 @@ color: white;
 
 .wrapper {
   min-height: 100%;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   overflow: hidden;
 }
 
 .footer,
 .push {
-  height: 50px;
+  height: 100px;
   overflow: hidden;
 }
 
