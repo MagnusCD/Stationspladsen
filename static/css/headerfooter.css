@@ -235,6 +235,18 @@ color: white;
   align-items: center;
 }
 
+.phone-container {
+  display: flex;
+  float: left;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.phone-container a:link, .phone-container a:visited {
+text-decoration: none;
+color: white;
+}
+
 .some-container {
   display: flex;
   float: right;
@@ -275,6 +287,11 @@ color: white;
   display: flex;
   justify-content: center;
 }
+.phone-container {
+  display: flex;
+  justify-content: center;
+  margin:0;
+}
 .some-container {
   display: flex;
   justify-content: center;
@@ -289,7 +306,7 @@ color: white;
   }
 }
 
-.fa-facebook-square:hover, .fa-instagram:hover, .fa-envelope:hover, .phone:hover {
+.fa-facebook-square:hover, .fa-instagram:hover, .fa-envelope:hover, .phone:hover, .phone-container:hover {
   animation: jump 1s;
   scale: 1.1;
 }
