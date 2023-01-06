@@ -221,7 +221,7 @@ color: white;
   box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
 }
 
-.button4 {
+.footer-btn1, .footer-btn2 {
   font-family: bilo, sans-serif;
   border: none;
   background: rgba(0, 0, 0, 0);
@@ -300,7 +300,7 @@ color: white;
   display: flex;
   justify-content: center;
 }
-.button4 {
+.footer-btn1 {
   font-size: 100%;
   font-weight: 600;
 }
