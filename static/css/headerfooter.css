@@ -330,13 +330,13 @@ color: white;
 
 .wrapper {
   min-height: 100%;
-  margin-bottom: 125px;
+  margin-bottom: 200px;
   overflow: hidden;
 }
 
 .footer,
 .push {
-  height: 125px;
+  height: 50px;
   overflow: hidden;
 }
 
