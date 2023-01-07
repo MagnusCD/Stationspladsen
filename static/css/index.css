@@ -9,8 +9,8 @@
   margin-left: auto;
   margin-right: auto;
   color: white;
-  font-size: 3vw;
-  width: 3vw;
+  font-size: 2vw;
+  width: 40vw;
   /*
   font-size: 300%;
   width: 1000px;
@@ -192,8 +192,8 @@ h2 {
 
 @media screen and (max-width: 1300px) {
 .typewriter {
-  font-size: 70%;
-  width: 250px;
+  font-size: 3vw;
+  width: 60vw;
   top: 8vw;
 }
 .grid-container {
