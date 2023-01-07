@@ -344,6 +344,13 @@ color: white;
   overflow: hidden;
 }
 
+@media screen and (max-width: 1300px) {
+.footer,
+.push {
+  height: 1250px;
+  }
+}
+
 
 
 
