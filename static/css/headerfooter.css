@@ -103,11 +103,7 @@ body {
 .btn-active a:visited, .btn-active a:link {
   color: #DDAA44;
 }
-
-.btn-active {
-  outline: 2px solid #DDAA44;
-}
-    
+ 
 .btn-active a:hover {
 color: white;
 }
