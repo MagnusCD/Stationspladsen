@@ -105,7 +105,7 @@ body {
 }
 
 .btn-active {
-  outline: 2px solid black;
+  outline: 2px solid #DDAA44;
 }
     
 .btn-active a:hover {
