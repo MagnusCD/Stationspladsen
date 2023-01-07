@@ -193,8 +193,8 @@ h2 {
 @media screen and (max-width: 1300px) {
 .typewriter {
   font-size: 3vw;
-  width: 60vw;
-  top: 8vw;
+  width: 70vw;
+  top: 7vw;
 }
 .grid-container {
   display: flex;
