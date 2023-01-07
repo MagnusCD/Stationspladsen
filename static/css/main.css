@@ -9,7 +9,7 @@ img {
 @media screen and (max-width: 1300px) {
 .wrapper {
   min-height: 100%;
-  margin-bottom: 300px;
+  margin-bottom: 500px;
   overflow: hidden;
   }
 }
