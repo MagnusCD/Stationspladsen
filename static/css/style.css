@@ -9,8 +9,12 @@
   margin-left: auto;
   margin-right: auto;
   color: white;
+  font-size: 20vw;
+  width: 20vw;
+  /*
   font-size: 300%;
   width: 1000px;
+  */
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
