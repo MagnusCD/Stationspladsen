@@ -52,8 +52,8 @@
   margin-right: auto;
   top: 7vw;
   color: #0b0535;
-  background-color: white;
-  width: fit-content;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
   font-size: 2vw;
   font-weight:900;
 }
@@ -271,6 +271,7 @@ h2 {
 .motto {
   font-size: 4vw;
   top: 30vw;
+  width: 100%;
 }
 .offer-wrapper {
   top: 65vw;
