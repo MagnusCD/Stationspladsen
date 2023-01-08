@@ -349,26 +349,11 @@ h2 {
   height: fit-content;
 }
 
-  .image1 {
+  .image1, .image2, .image3, .image4 {
     width: 100%;
-    height: 60vw;
+    height: 80vw;
   }
   
-  .image2 {
-    width: 100%;
-    height: 60vw;
-  }
-  
-  .image3 {
-  width: 100%;
-  height: 60vw;
-  }
-
-  .image4 {
-  width: 100%;
-  height: 60vw;
-  }
-
   #Maps {
   width: 90%;
   height: 40vw;
