@@ -6,8 +6,10 @@ author = "Stationspladsen"
 tags = ["Kaffe", "Tilbud"]
 +++
 
-Tilbud hele januar :
-Cappuccino- lille - 25,-
+<br>
+
+Tilbud hele januar:<br>
+Cappuccino- lille - 25,-<br>
 Økologisk kaffe - lavet med kærlighed
 
 ![Cappuccino kop](/images/post-1.jpg)
