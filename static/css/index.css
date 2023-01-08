@@ -301,7 +301,7 @@ h2 {
 .four-five {
   display: flex;
   justify-content: center;
-  height: 60vw;
+  height: fit-content;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 5vw;
