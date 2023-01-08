@@ -4,4 +4,4 @@ title = 'My New Hugo Site'
 paginate = 3
 
 [params]
-dateFormat = "Jan 2, 2006, 3:04PM"
+dateFormat = "Jan 2, 2006, 3:04"
