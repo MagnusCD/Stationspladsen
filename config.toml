@@ -5,4 +5,4 @@ paginate = 3
 summaryLength = 40
 
 [params]
-dateFormat = "Jan 2, 2006, 13:04"
+dateFormat = "Jan 2, 2006"
