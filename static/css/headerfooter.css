@@ -269,10 +269,10 @@ color: white;
 
 @media screen and (max-width: 1300px) {
 .topnav-image {
-  height: 30vw;
+  height: 60vw;
 }
 .topnav {
-  top: 24vw;
+  top: 55vw;
   height: 10vw;
 }
 .topnav-container .topnav-logo {

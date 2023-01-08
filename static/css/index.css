@@ -106,8 +106,6 @@
 }
 */
 
-
-
 .grid-container {
   margin-top: 12vw;
   display: grid;
@@ -263,14 +261,21 @@ h2 {
 
 @media screen and (max-width: 1300px) {
 .typewriter {
-  font-size: 3vw;
-  width: 65vw;
-  top: 7vw;
+  font-size: 2.5vw;
+  width: 100vw;
+  top: 18vw;
+}
+.motto {
+  font-size: 5vw;
+  top: 25vw;
+}
+.offer-wrapper {
+  top: 65vw;
 }
 .grid-container {
   display: flex;
   flex-direction: column;
-  margin-top: 20vw;
+  margin-top: 35vw;
 }
 .grid-container2 {
   display: flex;
@@ -281,6 +286,7 @@ h2 {
   justify-content: center;
   height: 50vw;
   margin-bottom: 20vw;
+  order: 2;
 }
 .two-three {
   display: flex;
@@ -289,6 +295,7 @@ h2 {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 5vw;
+  order: 1;
 }
 .four-five {
   display: flex;
@@ -297,20 +304,21 @@ h2 {
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   margin-bottom: 5vw;
+  order: 3;
 }
 .six{
   display: flex;
   justify-content: center;
   height: fit-content;
   margin-bottom: 50px;
-
+  order: 4;
 }
 .seven {
   display: flex;
   justify-content: center;
   height: fit-content;
   margin-bottom: 50px;
-
+  order: 6;
 }
 .eight-nine {
   display: flex;
@@ -319,6 +327,7 @@ h2 {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 5vw;
+  order: 5;
 }
 
 .ten-eleven {
