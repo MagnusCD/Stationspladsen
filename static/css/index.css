@@ -53,6 +53,7 @@
   top: 7vw;
   color: #0b0535;
   background-color: white;
+  width: fit-content;
   font-size: 2vw;
   font-weight:900;
 }
