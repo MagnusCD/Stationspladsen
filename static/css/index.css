@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   position: absolute;
-  top: 2vw;
+  top: 0.5vw;
   left:0;
   right:0;
   margin-left: auto;
@@ -41,6 +41,18 @@
   50% { border-color: orange; }
 }
 */
+
+
+.motto {
+  font-style: italic;
+  position: absolute;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 7vw;
+}
+
 
 .image1 {
   width: 100%;
