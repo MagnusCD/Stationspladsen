@@ -1,6 +1,6 @@
 +++
 title = "Tilbud på cappuccino"
-date = 2023-01-08T20:16:02+01:00
+date = 2023-01-08T20:16:02+03:00
 draft = false
 author = "Stationspladsen"
 tags = ["Kaffe", "Tilbud"]
