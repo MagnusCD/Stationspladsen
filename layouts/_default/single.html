@@ -17,7 +17,18 @@
 
 </head>
 
+<script>
 
+    $(window).scroll(function(){
+      if($(window).scrollTop()){
+        $('.topnav').addClass("fixed");
+   }
+   else{
+    $('.topnav').removeClass("fixed");
+   }
+   });
+  
+</script>
 
 <script>
     $(function() {$("#myIcon").click(function() {
