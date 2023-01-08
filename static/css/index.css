@@ -131,7 +131,7 @@
   text-align: center;
   height: 20vw;
   margin-top: -5vw;
-  animation: fade-right;
+  animation: fade-right 1s;
 }
 
 .four-five {
