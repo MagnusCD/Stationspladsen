@@ -3,7 +3,7 @@ title = "Tilbud på cappuccino"
 date = 2023-01-08T20:16:02+01:00
 draft = false
 author = "Stationspladsen"
-tags = ["Kaffe"]
+tags = ["Kaffe", "Tilbud"]
 +++
 
 Tilbud hele januar :
