@@ -63,6 +63,7 @@ body {
   float:  right;
 }
 
+
 /*Navbarren (minus billede)*/
 .topnav {
   background-color: #0b0535;
@@ -74,9 +75,10 @@ body {
   right:0;
   margin-left: auto;
   margin-right: auto;
-
   box-shadow: 0px 5px 10px 1px rgb(0, 0, 0);
+  transition: 1s;
 }
+
 
 .topnav-container .topnav-logo {
   height: 5vw;
@@ -109,13 +111,13 @@ color: white;
 }
      
 .topnav a {
-   display: block;
+  display: block;
   height: 5vw;
   line-height: 5vw;
 }
     
-.topnav.topnav.responsive a {
-   display: block;
+.topnav.responsive a {
+  display: block;
   height: 80px;
   line-height: 80px;
 }
@@ -134,6 +136,7 @@ color: white;
       transform: scaleY(1)
   }
 }
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1300px) {
@@ -188,6 +191,7 @@ color: white;
     display: block;
   }
 }
+
 
 /*Width and track */
 ::-webkit-scrollbar {
