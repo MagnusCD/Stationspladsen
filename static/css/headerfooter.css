@@ -147,7 +147,7 @@ color: white;
     right: 15px;
     color: rgb(0, 0, 0);
     z-index: 3;
-    text-shadow: -1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    text-shadow: -1px -1px 0 #DDAA44, -1px 1px 0 #DDAA44, 1px 1px 0  #DDAA44;
   }
 }
 
