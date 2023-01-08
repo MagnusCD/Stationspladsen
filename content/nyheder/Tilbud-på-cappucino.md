@@ -1,6 +1,6 @@
 +++
 title = "Tilbud på cappuccino"
-date = {{ .Date }}
+date = 2023-01-08T20:16:02+1:00
 draft = false
 author = "Stationspladsen"
 tags = ["Kaffe", "Tilbud"]
