@@ -276,7 +276,7 @@ h2 {
 .grid-container {
   display: flex;
   flex-direction: column;
-  margin-top: 60vw;
+  margin-top: 225px;
 }
 .grid-container2 {
   display: flex;
