@@ -10,7 +10,7 @@
   margin-right: auto;
   color: white;
   font-size: 2vw;
-  width: 40vw;
+  width: 75vw;
   /*
   font-size: 300%;
   width: 1000px;
@@ -52,8 +52,17 @@
   margin-right: auto;
   top: 7vw;
   text-shadow: -1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  font-size: 2vw;
 }
 
+.offer {
+  position: absolute;
+  top: 18vw;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .image1 {
   width: 100%;
