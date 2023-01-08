@@ -1,5 +1,6 @@
 img {
-  max-width: 100%;
+  width: 60%;
+  height: 15vw;
 }
 
 .site-main {
@@ -11,6 +12,10 @@ img {
   min-height: 100%;
   margin-bottom: 500px;
   overflow: hidden;
+}
+  img {
+  width: 80%;
+  height: 60vw;
   }
 }
 

@@ -12,8 +12,6 @@ tags = ["Kaffe", "Tilbud"]
 
 ### Økologisk kaffe - lavet med kærlighed.   
 
-<br>
-
 ![Cappuccino kop](/images/post-1.jpg)
 
 Elsker du god kaffe, skulle du måske prøve vores ❤️
