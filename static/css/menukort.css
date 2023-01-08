@@ -46,13 +46,3 @@ width: 100%;
     }
 }
 
-@media screen and (min-width: 1300px) {
-.topnav.fixed {
-    background-color: #0b0535;
-    position: fixed;
-     top: 0;
-    width: 100%;
-    transition: 1s;
-    z-index: 3;
-    }
-}
