@@ -44,12 +44,10 @@
 
 
 .motto {
+  display: flex;
   font-style: italic;
   position: absolute;
-  left:0;
-  right:0;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
   top: 7vw;
   color: #ffffff;
   background-color: rgb(0, 0, 0);
