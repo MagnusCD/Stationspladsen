@@ -55,13 +55,19 @@
   font-size: 2vw;
 }
 
-.offer {
+.offer-wrapper {
   position: absolute;
   top: 18vw;
   left:0;
   right:0;
   margin-left: auto;
   margin-right: auto;
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .image1 {
@@ -103,7 +109,7 @@
 
 
 .grid-container {
-  margin-top: 10vw;
+  margin-top: 12vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
