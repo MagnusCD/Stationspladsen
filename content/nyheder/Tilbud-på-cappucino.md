@@ -6,14 +6,13 @@ author = "Stationspladsen"
 tags = ["Kaffe", "Tilbud"]
 +++  
   
-<br>
-
 ## Tilbud hele januar:  
 
 ### Cappuccino- lille - 25,-  
 
-### Økologisk kaffe - lavet med kærlighed.      
-
+### Økologisk kaffe - lavet med kærlighed.   
+   
+   
 ![Cappuccino kop](/images/post-1.jpg)
 
 Elsker du god kaffe, skulle du måske prøve vores ❤️
