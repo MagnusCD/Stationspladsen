@@ -263,19 +263,20 @@ h2 {
 .typewriter {
   font-size: 2.5vw;
   width: 100vw;
-  top: 18vw;
+  top: 20vw;
 }
 .motto {
   font-size: 5vw;
-  top: 25vw;
+  top: 30vw;
 }
 .offer-wrapper {
   top: 65vw;
+  height: fit-content;
 }
 .grid-container {
   display: flex;
   flex-direction: column;
-  margin-top: 35vw;
+  margin-top: 60vw;
 }
 .grid-container2 {
   display: flex;
@@ -284,9 +285,9 @@ h2 {
 .one {
   display: flex;
   justify-content: center;
-  height: 50vw;
-  margin-bottom: 20vw;
+  height: fit-content;
   order: 2;
+  margin-bottom: 5vw;
 }
 .two-three {
   display: flex;
@@ -300,9 +301,9 @@ h2 {
 .four-five {
   display: flex;
   justify-content: center;
-  height: fit-content;
+  height: 60vw;
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 5vw;
   order: 3;
 }
@@ -310,14 +311,14 @@ h2 {
   display: flex;
   justify-content: center;
   height: fit-content;
-  margin-bottom: 50px;
+  margin-bottom: 5vw;
   order: 4;
 }
 .seven {
   display: flex;
   justify-content: center;
   height: fit-content;
-  margin-bottom: 50px;
+  margin-bottom: 5vw;
   order: 6;
 }
 .eight-nine {
@@ -335,7 +336,7 @@ h2 {
   justify-content: center;
   height: fit-content;
   flex-direction: column;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.1);
 }
   
 .twelve {
