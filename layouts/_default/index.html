@@ -20,6 +20,13 @@
 
 </head>
 
+<script>
+  $(window).scroll(function(){
+    if($(window).scrollTop()){
+      $(".topnav").addClass("sticky");
+ }
+ })
+</script>
 
 <script>
   $(function() {$("#myIcon").click(function() {
