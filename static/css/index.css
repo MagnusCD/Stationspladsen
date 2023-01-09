@@ -25,9 +25,13 @@
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 3s;
+
+  /*
   animation: 
     typing 3.5s steps(30, end),
     blink-caret .75s step-end infinite;
+  */
 }
 
 @keyframes typing {
@@ -304,6 +308,10 @@ h2 {
   background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 5vw;
   order: 1;
+  animation: none;
+}
+.two-three h1, .two-three h2{
+  animation: fade-right 2s;
 }
 .four-five {
   display: flex;
