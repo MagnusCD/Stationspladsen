@@ -11,7 +11,7 @@
   color: white;
   font-size: 2vw;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  width: 76vw;
+  width: fit-content;
 }
 
 /*https://css-tricks.com/snippets/css/typewriter-effect/*/
@@ -21,7 +21,7 @@
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: typing 3s;
+  animation: typing 4s;
 
   /*
   animation: 
@@ -267,8 +267,7 @@ h2 {
 
 @media screen and (max-width: 1300px) {
 .header {
-  font-size: 2.2vw;
-  width: 95vw;
+  font-size: 2.5vw;
   top: 20vw;
 }
 .motto {
