@@ -58,6 +58,7 @@
   width: 50%;
   font-size: 2vw;
   font-weight:900;
+  animation: fadeIn 2s;
 }
 
 .offer-wrapper {
@@ -67,7 +68,7 @@
   right:0;
   margin-left: auto;
   margin-right: auto;
-  animation: fadeIn 3s;
+  animation: fade-left 2s;
 }
 
 @keyframes fadeIn {
