@@ -131,7 +131,15 @@ $('.rotate').toggleClass("down");
 </html>
 
 <script>
+$(window).resize(function () {
+var viewportWidth = $(window).width();
+if (viewportWidth < 1300) {
+$(".topnav").removeClass("fixed");
+}
+});
+</script>
 
+<script>
 $(window).scroll(function(){
 if($(window).width() > 767) {
 if($(window).scrollTop()){
@@ -142,5 +150,4 @@ $('.topnav').removeClass("fixed");
 }
 }
 });
-    
 </script>
