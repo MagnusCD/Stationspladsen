@@ -69,6 +69,15 @@
   margin-left: auto;
   margin-right: auto;
   animation: fade-left 2s;
+  margin-top: 5vw;
+}
+
+.site-main {
+  margin-top: 5vw;
+}
+
+.åbningstider {
+  margin-bottom: 100px;
 }
 
 @keyframes fadeIn {
