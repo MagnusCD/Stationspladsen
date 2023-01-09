@@ -20,24 +20,14 @@
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
-<script>
 
-  $(window).scroll(function(){
-    if($(window).scrollTop()){
-      $('.topnav').addClass("fixed");
- }
- else{
-  $('.topnav').removeClass("fixed");
- }
- });
 
-</script>
 
 <script>
-  $(function() {$("#myIcon").click(function() {
-  $('.rotate').toggleClass("down");
-  });
-  });
+$(function() {$("#myIcon").click(function() {
+$('.rotate').toggleClass("down");
+});
+});
 </script>
 
 <body>
@@ -222,6 +212,22 @@
 
 </body>
 </html>
+
+<script>
+
+$(window).scroll(function(){
+if($(window).width() > 1300) {
+if($(window).scrollTop()){
+$('.topnav').addClass("fixed");
+}
+else{
+$('.topnav').removeClass("fixed");
+}
+}
+});
+  
+  
+</script>
 
 
 

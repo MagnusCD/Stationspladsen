@@ -19,24 +19,12 @@
 
 </head>
 
-<script>
-
-  $(window).scroll(function(){
-    if($(window).scrollTop()){
-      $('.topnav').addClass("fixed");
- }
- else{
-  $('.topnav').removeClass("fixed");
- }
- });
-
-</script>
 
 <script>
-    $(function() {$("#myIcon").click(function() {
-    $('.rotate').toggleClass("down");
-    });
-    });
+$(function() {$("#myIcon").click(function() {
+$('.rotate').toggleClass("down");
+});
+});
 </script>
 
 
@@ -117,3 +105,18 @@
 
 </body>
 </html>
+
+<script>
+  
+$(window).scroll(function(){
+if($(window).width() > 767) {
+if($(window).scrollTop()){
+$('.topnav').addClass("fixed");
+}
+else{
+$('.topnav').removeClass("fixed");
+}
+}
+});
+  
+</script>
