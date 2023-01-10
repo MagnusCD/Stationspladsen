@@ -30,7 +30,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  font-size: 300%;
+  font-size: 250%;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   width: fit-content;
 }
@@ -43,16 +43,6 @@ body {
   letter-spacing: .15em; /* Adjust as needed */
   animation: typing 4s;
 }
-
-.header text {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #DDAA44; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  font-size: 300%;
-}
-
 
 .motto {
   display: flex;
@@ -73,7 +63,7 @@ body {
 
 @media screen and (max-width: 1300px) {
   .header {
-    font-size: 6vw;
+    font-size: 2.2vw;
     top: 20vw;
   }
   .motto {
