@@ -225,15 +225,6 @@ h2 {
 }
 
 @media screen and (max-width: 1300px) {
-.header {
-  font-size: 2.2vw;
-  top: 20vw;
-}
-.motto {
-  font-size: 4vw;
-  top: 30vw;
-  width: 100%;
-}
 .offer-wrapper {
   margin: 0;
   top: 65vw;
