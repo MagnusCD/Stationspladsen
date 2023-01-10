@@ -11,6 +11,8 @@ body {
 .topnav-image {
   border-bottom: 10px solid #DDAA44;
   height: 15vw;
+  object-fit: cover;
+  object-position: 1 0;
 }
 
 @media screen and (min-width: 1300px) {
