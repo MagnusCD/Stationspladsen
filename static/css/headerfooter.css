@@ -44,6 +44,10 @@ body {
   animation: typing 4s;
 }
 
+h1 {
+  font-size: 250%;
+}
+
 .motto {
   display: flex;
   font-style: italic;
