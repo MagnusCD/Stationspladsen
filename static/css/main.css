@@ -21,6 +21,9 @@ margin-top: -5px;
   margin-bottom: 500px;
   overflow: hidden;
   }
+  .copyright-container {
+    margin-top: 0px;
+  }
 }
 
 
