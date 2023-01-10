@@ -24,10 +24,10 @@
 
 
 <script>
-$(function() {$("#myIcon").click(function() {
-$('.rotate').toggleClass("down");
-});
-});
+  $(function() {$("#myIcon").click(function() {
+  $('.rotate').toggleClass("down");
+  });
+  });
 </script>
 
 <body>
@@ -223,25 +223,25 @@ $('.rotate').toggleClass("down");
 </html>
 
 <script>
-$(window).resize(function () {
- var viewportWidth = $(window).width();
-if (viewportWidth < 1300) {
-$(".topnav").removeClass("fixed");
-}
-});
+  $(window).resize(function () {
+  var viewportWidth = $(window).width();
+  if (viewportWidth < 1300) {
+  $(".topnav").removeClass("fixed");
+  }
+  });
 </script>
 
 <script>
-$(window).scroll(function(){
-if($(window).width() > 1300) {
-if($(window).scrollTop()){
-$('.topnav').addClass("fixed");
-}
-else{
-$('.topnav').removeClass("fixed");
-}
-}
-});
+  $(window).scroll(function(){
+  if($(window).width() > 1300) {
+  if($(window).scrollTop()){
+  $('.topnav').addClass("fixed");
+  }
+  else{
+  $('.topnav').removeClass("fixed");
+  }
+  }
+  });
 </script>
 
 

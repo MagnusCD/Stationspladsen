@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> {{ .Title }} </title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css/">
     <link rel="stylesheet" href="/css/headerfooter.css">
     <link rel="stylesheet" href="/css/main.css">
 
     <script src="/js/script.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
     <script src="https://kit.fontawesome.com/5e2cb9f1be.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
@@ -16,10 +20,10 @@
 
 
 <script>
- $(function() {$("#myIcon").click(function() {
- $('.rotate').toggleClass("down");
-});
-});
+    $(function() {$("#myIcon").click(function() {
+    $('.rotate').toggleClass("down");
+    });
+    });
 </script>
 
 
@@ -116,24 +120,24 @@
 </html>
 
 <script>
-$(window).resize(function () {
-var viewportWidth = $(window).width();
-if (viewportWidth < 1300) {
-$(".topnav").removeClass("fixed");
-}
-});
+    $(window).resize(function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 1300) {
+    $(".topnav").removeClass("fixed");
+    }
+    });
 </script>
 
 <script>
-$(window).scroll(function(){
-if($(window).width() > 1300) {
-if($(window).scrollTop()){
-$('.topnav').addClass("fixed");
-}
-else{
-$('.topnav').removeClass("fixed");
-}
-}
-});
+    $(window).scroll(function(){
+    if($(window).width() > 1300) {
+    if($(window).scrollTop()){
+    $('.topnav').addClass("fixed");
+    }
+    else{
+    $('.topnav').removeClass("fixed");
+    }
+    }
+    });
 </script>
 
