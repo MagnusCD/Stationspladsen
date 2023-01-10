@@ -13,13 +13,13 @@ img {
   overflow: hidden;
   }
   .copyright-container {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   }
 }
 
 @media screen and (min-width: 1300px) {
 .mail-container, .phone-container {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   }
 }
 
