@@ -269,6 +269,7 @@ h2 {
   width: 100%;
 }
 .offer-wrapper {
+  margin: 0;
   top: 65vw;
   height: fit-content;
 }
