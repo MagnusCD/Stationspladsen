@@ -112,8 +112,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .one {
@@ -169,8 +169,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   position: relative;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .ten-eleven {
