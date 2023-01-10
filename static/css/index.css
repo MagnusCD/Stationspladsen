@@ -272,11 +272,11 @@ h2 {
   margin: 0;
   top: 65vw;
   height: fit-content;
+  margin-bottom: 5vw;
 }
 .grid-container {
   display: flex;
   flex-direction: column;
-  margin-top: 225px;
 }
 .grid-container2 {
   display: flex;
