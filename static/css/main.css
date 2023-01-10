@@ -12,6 +12,17 @@ img {
   margin-bottom: 500px;
   overflow: hidden;
   }
+  .copyright-container {
+  margin-bottom: 5px;
+  }
 }
+
+@media screen and (min-width: 1300px) {
+.mail-container, .phone-container {
+  margin-bottom: 10px;
+  }
+}
+
+
 
 
