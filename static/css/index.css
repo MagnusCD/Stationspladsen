@@ -301,6 +301,7 @@ h2 {
   height: fit-content;
   order: 2;
   box-shadow: none;
+  margin-top: -5vw;
 }
 .two-three {
   display: flex;
@@ -323,7 +324,6 @@ h2 {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.1);
   margin-top: 0vw;
-  margin-bottom: 5vw;
   order: 3;
   box-shadow: none;
 }
@@ -331,7 +331,6 @@ h2 {
   display: flex;
   justify-content: center;
   height: fit-content;
-  margin-bottom: 5vw;
   order: 4;
   box-shadow: none;
 }
@@ -339,7 +338,6 @@ h2 {
   display: flex;
   justify-content: center;
   height: fit-content;
-  margin-bottom: 5vw;
   order: 6;
   box-shadow: none;
 }
@@ -349,7 +347,6 @@ h2 {
   height: fit-content;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.1);
-  margin-bottom: 5vw;
   order: 5;
   box-shadow: none;
 }
