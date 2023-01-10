@@ -8,10 +8,10 @@ img {
 
 @media screen and (min-width: 1300px) {
   .mail-container {
-margin-top: -10px;
+margin-top: -6px;
   }
   .phone-container {
-margin-top: -10px;
+margin-top: -6px;
   }
 }
 
@@ -22,7 +22,7 @@ margin-top: -10px;
   overflow: hidden;
   }
   .copyright-container {
-    margin-top: -5px;
+    margin-top: -2px;
   }
 }
 
