@@ -298,7 +298,6 @@ color: white;
 .footer {
   display: flex;
   flex-direction: column;
-  padding-bottom: 75px;
 }
 .mail-container {
   display: flex;
@@ -315,7 +314,7 @@ color: white;
   justify-content: center;
   margin:0;
   order: 4;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 .some-container {
   display: flex;
@@ -360,14 +359,10 @@ color: white;
   overflow: hidden;
 }
 
-.overflow-wrapper {
-  overflow: hidden;
-}
-
 @media screen and (max-width: 1300px) {
 .footer,
 .push {
-  height: 145px;
+  height: 235px;
   }
 }
 
