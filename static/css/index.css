@@ -130,7 +130,6 @@
   text-align: center;
   height: 25vw;
   margin-top: -5vw;
-  animation: fade-right 2s;
   box-shadow: 1px 0px 1px 0px rgb(0, 0, 0); /*Right and  top*/
 }
 
@@ -293,16 +292,19 @@ h2 {
 .grid-container {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 .grid-container2 {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 .one {
   display: flex;
   justify-content: center;
   height: fit-content;
   order: 2;
+  box-shadow: none;
 }
 .two-three {
   display: flex;
@@ -313,6 +315,7 @@ h2 {
   order: 1;
   animation: none;
   margin-bottom: 5vw;
+  box-shadow: none;
 }
 .two-three h1, .two-three h2{
   animation: fade-right 2s;
@@ -326,6 +329,7 @@ h2 {
   margin-top: 0vw;
   margin-bottom: 5vw;
   order: 3;
+  box-shadow: none;
 }
 .six{
   display: flex;
@@ -333,6 +337,7 @@ h2 {
   height: fit-content;
   margin-bottom: 5vw;
   order: 4;
+  box-shadow: none;
 }
 .seven {
   display: flex;
@@ -340,6 +345,7 @@ h2 {
   height: fit-content;
   margin-bottom: 5vw;
   order: 6;
+  box-shadow: none;
 }
 .eight-nine {
   display: flex;
@@ -349,6 +355,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 5vw;
   order: 5;
+  box-shadow: none;
 }
 
 .ten-eleven {
@@ -357,12 +364,14 @@ h2 {
   height: fit-content;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
 }
   
 .twelve {
   display: flex;
   justify-content: center;
   height: fit-content;
+  box-shadow: none;
 }
 
   .image1, .image2, .image3, .image4 {
