@@ -30,7 +30,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  font-size: 150%;
+  font-size: 300%;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   width: fit-content;
 }
@@ -42,7 +42,6 @@ body {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: typing 4s;
-  font-size: 300%;
 }
 
 .header text {
