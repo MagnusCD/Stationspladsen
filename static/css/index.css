@@ -3,13 +3,13 @@
   display: flex;
   align-items: center;
   position: absolute;
-  top: 0.5vw;
+  top: 25px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   color: white;
-  font-size: 2vw;
+  font-size: 150%;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   width: fit-content;
 }
@@ -22,26 +22,12 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: typing 4s;
-
-  /*
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .75s step-end infinite;
-  */
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
-
-/*
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-*/
-
 
 .motto {
   display: flex;
@@ -52,29 +38,23 @@
   right:0;
   margin-left: auto;
   margin-right: auto;
-  top: 7vw;
+  top: 125px;
   color: #ffffff;
   background-color: rgb(0, 0, 0);
   width: 50%;
-  font-size: 2vw;
-  font-weight:900;
+  font-size: 150%;
   animation: fadeIn 2s;
 }
 
 .offer-wrapper {
-  position: absolute;
-  top: 18vw;
   left:0;
   right:0;
   margin-left: auto;
   margin-right: auto;
   animation: fade-left 2s;
-  margin-top: 5vw;
+  margin-top: 125px;
 }
 
-.site-main {
-  margin-top: 5vw;
-}
 
 @media screen and (min-width: 1300px) {
   .åbningstider {
@@ -125,7 +105,7 @@
 */
 
 .grid-container {
-  margin-top: 12vw;
+  margin-top: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
