@@ -54,6 +54,7 @@
   animation: fade-left 2s;
   margin-top: 125px;
   margin-bottom: 5vw;
+  margin-bottom: 25px;
 }
 
 
@@ -288,6 +289,7 @@ h2 {
   padding-top: 5vw;
   height: fit-content;
   padding-bottom: 5vw;
+  margin-bottom: 25px;
 }
 .grid-container {
   display: flex;
