@@ -271,8 +271,9 @@ h2 {
 .offer-wrapper {
   margin: 0;
   top: 65vw;
+  padding-top: 5vw;
   height: fit-content;
-  margin-top: 10vw;
+  padding-bottom: 5vw;
 }
 .grid-container {
   display: flex;
@@ -287,7 +288,6 @@ h2 {
   justify-content: center;
   height: fit-content;
   order: 2;
-  margin-bottom: 5vw;
 }
 .two-three {
   display: flex;
@@ -295,9 +295,9 @@ h2 {
   height: fit-content;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.1);
-  margin-bottom: 5vw;
   order: 1;
   animation: none;
+  margin-bottom: 5vw;
 }
 .two-three h1, .two-three h2{
   animation: fade-right 2s;
@@ -307,7 +307,8 @@ h2 {
   justify-content: center;
   height: fit-content;
   flex-direction: column;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 0vw;
   margin-bottom: 5vw;
   order: 3;
 }
@@ -340,7 +341,7 @@ h2 {
   justify-content: center;
   height: fit-content;
   flex-direction: column;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.1);
 }
   
 .twelve {
@@ -350,8 +351,14 @@ h2 {
 }
 
   .image1, .image2, .image3, .image4 {
-    width: 100%;
-    height: 80vw;
+    width: 80%;
+    height: 60vw;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
   
   #Maps {
