@@ -8,6 +8,14 @@ body {
   font-family: 'Roboto';
 }
 
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
 .topnav-image {
   border-bottom: 10px solid #DDAA44;
   height: 300px;
@@ -50,7 +58,7 @@ body {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: typing 4s;
+  font-size: 250%;
 }
 
 
