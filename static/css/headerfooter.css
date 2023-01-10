@@ -15,26 +15,59 @@ body {
   object-position: 1 0;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 150%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  width: fit-content;
+}
 
+/*https://css-tricks.com/snippets/css/typewriter-effect/*/
+.header h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #DDAA44; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 4s;
+}
 
+.motto {
+  display: flex;
+  font-style: italic;
+  position: absolute;
+  justify-content: center;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 125px;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  font-size: 150%;
+  animation: fadeIn 2s;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1300px) {
+  .header {
+    font-size: 2.2vw;
+    top: 20vw;
+  }
+  .motto {
+    font-size: 4vw;
+    top: 30vw;
+    width: 100%;
+  }
+}
 
 .topnav-button1, .topnav-button2, .topnav-button3, .topnav-button4, .topnav-button5 {
   width: 200px;
