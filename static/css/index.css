@@ -130,6 +130,7 @@
   height: 25vw;
   margin-top: -5vw;
   animation: fade-right 2s;
+  box-shadow: 1px 0px 1px 0px rgb(0, 0, 0); /*Right and  top*/
 }
 
 .four-five {
