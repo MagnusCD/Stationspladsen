@@ -54,6 +54,11 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  font-size: 125%;
+  font-weight: 500;
+}
+
 .motto {
   display: flex;
   font-style: italic;
