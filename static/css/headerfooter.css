@@ -297,7 +297,11 @@ color: white;
 }
 
 .fa-facebook-square {
-  margin-right: 50px;
+  margin-right: 25px;
+}
+
+.fa-instagram {
+  margin-left:  25px;
 }
 
 @media screen and (min-width: 1300px) {
