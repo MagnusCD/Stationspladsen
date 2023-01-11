@@ -1,6 +1,6 @@
 baseURL = 'https://cafestationspladsen.dk'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Café Stationspladsen'
 paginate = 3
 summaryLength = 40
 
