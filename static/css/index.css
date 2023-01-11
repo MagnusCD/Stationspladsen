@@ -73,7 +73,7 @@
   grid-column: 1/1;
   grid-row: 1/3;
   height: 25vw;
-  box-shadow: -1px 0px 1px 0px rgb(0, 0, 0); /*Left and  top*/
+  box-shadow: -1.5px 0px 1px 0px rgb(0, 0, 0); /*Left and  top*/
 }
 
 .two-three {
@@ -90,7 +90,7 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.1);
   height: 25vw;
-  box-shadow: -1px 0px 0px 0px rgb(0, 0, 0); /*Left*/
+  box-shadow: -1.5px 0px 0px 0px rgb(0, 0, 0); /*Left*/
 }
 
 .six{
@@ -104,7 +104,7 @@
   grid-column: 1/1;
   grid-row: 3/3;
   height: 25vw;
-  box-shadow: -1px 0px 0px 0px rgb(0, 0, 0); /*Left*/
+  box-shadow: -1.5px 0px 0px 0px rgb(0, 0, 0); /*Left*/
 }
 
 .eight-nine {
@@ -130,7 +130,7 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.1);
   height: 25vw;
-  box-shadow: -1px 1px 0px 0px rgb(0, 0, 0); /*Left and bottom*/
+  box-shadow: -1.5px 1px 0px 0px rgb(0, 0, 0); /*Left and bottom*/
   border-bottom: 3px solid #000000;
 }
 
