@@ -4,5 +4,11 @@ title = 'Café Stationspladsen'
 paginate = 3
 summaryLength = 40
 
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 2
+
+
 [params]
 dateFormat = "2. Jan, 2006"
