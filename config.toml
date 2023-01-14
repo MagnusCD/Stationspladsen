@@ -5,8 +5,8 @@ paginate = 3
 summaryLength = 40
 
 [[menu.main]]
-name = "Contact"
-url = "/contact"
+name = "Menukort"
+url = "/menukort"
 weight = 2
 
 
