@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Café Stationspladsen'
 paginate = 3
 summaryLength = 40
-permalinks =  "/:title"
 
 [params]
 dateFormat = "2. Jan, 2006"
