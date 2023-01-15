@@ -1,4 +1,4 @@
 ---
 layout: "menu"
-title: "Menukort"
+title: "Menukort | Café Stationspladsen"
 ---
