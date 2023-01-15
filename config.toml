@@ -5,8 +5,8 @@ paginate = 3
 summaryLength = 40
 
 [[menu.main]]
-name = "Menukort"
-url = "/menukort"
+name = "Menukort | Café Stationspladsen"
+url = "/menu"
 weight = 2
 
 

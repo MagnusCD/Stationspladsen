@@ -1,4 +1,4 @@
 ---
-layout: "menukort"
+layout: "menu"
 title: "Menukort"
 ---
