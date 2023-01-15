@@ -1,48 +1,31 @@
-body {
-    background-color: #F0E3D4;
+img {
+  max-width: 100%;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-.menukort1 {
-width: 100%;
-}
-
-.menukort2 {
-width: 100%;
-}
-
-.one {
-    grid-column: 1/2;
-    grid-row: 1/1;
-}
-  
-.two {
-    grid-column: 2/2;
-    grid-row: 1/1;
+.site-main {
+  margin-top: 5vw;
 }
 
 @media screen and (min-width: 1300px) {
-    .grid-container {
-        margin-bottom: -70vw
-    }
+  .mail-container {
+margin-top: -5px;
+  }
+  .phone-container {
+margin-top: -5px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-    .grid-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .menukort1 {
-    width: 100%;
-    }
-        
-    .menukort2 {
-    width: 100%;
-    }
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 500px;
+  overflow: hidden;
+  }
+  .copyright-container {
+    margin-top: 0px;
+  }
 }
+
+
+
 

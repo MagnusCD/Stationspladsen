@@ -9,6 +9,11 @@ name = "Menukort | Café Stationspladsen"
 url = "/menu"
 weight = 2
 
+[[menu.main]]
+name = "Nyheder | Café Stationspladsen"
+url = "/nyheder"
+weight = 2
+
 
 [params]
 dateFormat = "2. Jan, 2006"
