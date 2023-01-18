@@ -13,16 +13,22 @@ margin-top: -5px;
   .phone-container {
 margin-top: -5px;
   }
+  .single-post img {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-.wrapper {
+  .wrapper {
   min-height: 100%;
   margin-bottom: 500px;
   overflow: hidden;
   }
   .copyright-container {
     margin-top: 0px;
+  }
+  .single-post img {
+    width: 80%;
   }
 }
 
