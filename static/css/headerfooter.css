@@ -30,7 +30,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  font-size: 250%;
+  font-size: 200%;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   width: fit-content;
 }
