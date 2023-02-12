@@ -328,7 +328,9 @@ color: white;
   height: 10vw;
   width: 90%;
   margin-left: 5%; 
+  }
 }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -361,10 +363,10 @@ color: white;
   font-size: 150%;
 }
 .topnav-button1, .topnav-button2
-  {
-    margin:0;
-  }
+{
+  margin:0;
 }
+
 
 .fa-facebook-square:hover, .fa-instagram:hover, .fa-envelope:hover, .phone:hover, .phone-container:hover {
   animation: jump 1s;
