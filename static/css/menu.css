@@ -26,13 +26,13 @@ width: 100%;
     grid-row: 1/1;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1100px) {
     .grid-container {
         margin-bottom: -70vw
     }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
     .grid-container {
         display: flex;
         flex-direction: column;

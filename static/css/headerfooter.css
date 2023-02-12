@@ -76,7 +76,7 @@ h3 {
   animation: fadeIn 2s;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
   .header {
     font-size: 2.2vw;
     top: 20vw;
@@ -96,7 +96,7 @@ h3 {
   border-width: 0;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
   .topnav-button1, .topnav-button2, .topnav-button3, .topnav-button4, .topnav-button5 {
   border-radius: 40px;
   }
@@ -175,7 +175,7 @@ color: white;
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
     .topnav-button1, .topnav-button2, .topnav-button3, .topnav-button4, .topnav-button5 {
     display: none;
   }
@@ -191,7 +191,7 @@ color: white;
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
     .topnav.responsive .topnav-buttons { 
     display: flex;
     flex-direction: column;
@@ -314,14 +314,14 @@ color: white;
   margin-left:  25px;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1100px) {
   .footer {
    position: fixed;
    bottom: 0;
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
 .topnav-image {
   height: 60vw;
 }
@@ -397,14 +397,14 @@ color: white;
   overflow: hidden;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
 .footer,
 .push {
   height: 150px;
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1100px) {
   .topnav.fixed {
   background-color: #0b0535;
   position: fixed;
