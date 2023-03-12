@@ -242,18 +242,6 @@ color: white;
   border-radius: 10px;
 }
 
-.rotate{
-  -moz-transition: all 0.5s linear;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-}
-
-.rotate.down{
-  -moz-transform:rotate(-450deg);
-  -webkit-transform:rotate(-450deg);
-  transform:rotate(-450deg);
-}
-
 .footer {
   background: #0B0535;;
   width: 100%;
