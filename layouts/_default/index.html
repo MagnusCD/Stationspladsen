@@ -22,8 +22,8 @@
 
   <link rel="stylesheet" href="/css/headerfooter.css">
   <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/burgermenu.css">
 
-  <script src="/js/script.js"></script>
   <script src="/js/script.js"></script>
 
   <script src="https://kit.fontawesome.com/5e2cb9f1be.js" crossorigin="anonymous"></script>
@@ -35,15 +35,20 @@
 
 
 <script>
-  $(function() {$("#myIcon").click(function() {
-  $('.rotate').toggleClass("down");
-  });
+  $(document).ready(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+          $(this).toggleClass('open');
+      });
   });
 </script>
 
 <body>
 
-
+<div class="nav-icon4" id="nav-icon4" onclick="One();">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 
 
 <div class="wrapper">
@@ -72,9 +77,6 @@
       <button class="topnav-button3"><a href="/menu/">Menukort</button></a>
     </div>
   </div>
-  
-  <a href="javascript:void(0);" class="icon rotate" id="myIcon" onclick="One();">
-  <i class="fa fa-bars fa-2x"></i></a>
 </div>
 </header>
 
