@@ -15,7 +15,7 @@
   height: 25vw;
   display: flex;
   align-items: center;
-  
+  justify-content: center;
 }
 
 
