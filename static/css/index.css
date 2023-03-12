@@ -13,6 +13,9 @@
   margin-right: auto;
   animation: fade-left 2s;
   height: 25vw;
+  display: flex;
+  align-items: center;
+  
 }
 
 
