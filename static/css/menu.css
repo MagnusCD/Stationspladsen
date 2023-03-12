@@ -2,6 +2,10 @@ body {
     background-color: #F0E3D4;
 }
 
+.topnav-button3 {
+    color: #f2af47;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
