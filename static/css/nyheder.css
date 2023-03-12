@@ -1,9 +1,13 @@
-img {
-  max-width: 100%;
+.topnav-button2 a:link, .topnav-button2 a:visited {
+  color: #f2af47;
 }
 
-.topnav-button2 {
-  color: #f2af47;
+.topnav-button2 a:hover {
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
 }
 
 .site-main {

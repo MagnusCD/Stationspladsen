@@ -2,9 +2,13 @@ body {
     background-color: #F0E3D4;
 }
 
-.topnav-button3 {
+.topnav-button3 a:link, .topnav-button3 a:visited {
     color: #f2af47;
-}
+  }
+
+  .topnav-button3 a:hover {
+    color: #ffffff;
+  }
 
 .grid-container {
     display: grid;

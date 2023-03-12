@@ -1,5 +1,9 @@
-.topnav-button1 {
+.topnav-button1 a:link, .topnav-button1 a:visited {
   color: #f2af47;
+}
+
+.topnav-button1 a:hover {
+  color: #ffffff;
 }
 
 .offer-wrapper {
