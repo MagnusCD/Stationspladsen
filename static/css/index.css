@@ -241,6 +241,13 @@
   flex-direction: column;
   margin: 0;
 }
+
+.one, .two-three, .four-five, .six, .seven, .eight-nine, .ten-eleven, .twelve {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
 .one {
   display: flex;
   justify-content: center;
@@ -315,8 +322,8 @@
 }
 
   .image1, .image2, .image3, .image4 {
-    width: 80%;
-    height: 80vw;
+    width: 300px;
+
     display: flex;
     left: 0;
     right: 0;
