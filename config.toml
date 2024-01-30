@@ -5,12 +5,12 @@ paginate = 3
 summaryLength = 40
 
 [[menu.main]]
-name = "Menukort"
+name = "Menukort | Café Stationspladsen"
 url = "/menu"
 weight = 2
 
 [[menu.main]]
-name = "Nyheder"
+name = "Nyheder | Café Stationspladsen"
 url = "/nyheder"
 weight = 2
 
