@@ -373,14 +373,7 @@ color: white;
 
 .footer,
 .push {
-  height: 50px;
-  overflow: hidden;
-}
-
-
-.footer,
-.push {
-  height: 150px;
+  height: 175px;
 }
 
 
