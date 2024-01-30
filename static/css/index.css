@@ -363,9 +363,8 @@
 
   .one, .two-three, .four-five, .six, .seven, .eight-nine, .ten-eleven, .twelve {
     height: 250px;
-    align-items: center;
   }
-  .grid-container p, .grid-container2 p {
+  .grid-container h2, .grid-container2 h2 {
     padding-top: 25px;
   }
 }
