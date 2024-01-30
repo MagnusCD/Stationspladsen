@@ -362,7 +362,7 @@
   }
 
   .one, .two-three, .four-five, .six, .seven, .eight-nine, .ten-eleven, .twelve {
-    height: 255px;
+    height: 250px;
   }
   .grid-container p, .grid-container2 p {
     padding-top: 25px;
