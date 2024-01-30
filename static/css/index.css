@@ -322,7 +322,7 @@
 
   .image1, .image2, .image3, .image4 {
     width: 300px;
-    height: 225px;
+    height: fit-content;
     margin: 0;
 
     display: flex;
