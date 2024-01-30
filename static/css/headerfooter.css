@@ -127,6 +127,7 @@ h3 {
   height: 75px;
   width: 300px;
   float: left;
+  margin-top: 25px;
 }
 
 .topnav-button1:hover, .topnav-button2:hover, .topnav-button3:hover, .topnav-button4:hover, .topnav-button5:hover {
