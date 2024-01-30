@@ -1,4 +1,4 @@
 ---
 layout: "nyheder"
-title: "Nyheder | Café Stationspladsen"
+title: "Nyheder"
 ---
