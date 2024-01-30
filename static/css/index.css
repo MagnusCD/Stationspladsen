@@ -242,10 +242,6 @@
   margin: 0;
 }
 
-.one, .two-three, .four-five, .six, .seven, .eight-nine, .ten-eleven, .twelve {
-  padding: 25px;
-}
-
 
 .one {
   display: flex;
@@ -318,6 +314,11 @@
   justify-content: center;
   height: fit-content;
   box-shadow: none;
+}
+
+.one, .two-three, .four-five, .six, .seven, .eight-nine, .ten-eleven, .twelve {
+  padding: 25px;
+  margin: 0;
 }
 
   .image1, .image2, .image3, .image4 {
