@@ -243,8 +243,7 @@
 }
 
 .one, .two-three, .four-five, .six, .seven, .eight-nine, .ten-eleven, .twelve {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px;
 }
 
 
