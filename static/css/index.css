@@ -323,7 +323,7 @@
 
   .image1, .image2, .image3, .image4 {
     width: 300px;
-
+    height: 225px;
     display: flex;
     left: 0;
     right: 0;
@@ -355,8 +355,8 @@
   }
 
   .image1, .image2, .image3, .image4 {
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 225px;
   }
 
   .one, .two-three, .four-five, .six, .seven, .eight-nine, .ten-eleven, .twelve {
