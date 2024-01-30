@@ -317,12 +317,13 @@
 }
 
 .one, .two-three, .four-five, .six, .seven, .eight-nine, .ten-eleven, .twelve {
-  align-items: center;
+  padding: 25px;
+  margin: 0;
 }
 
   .image1, .image2, .image3, .image4 {
     width: 300px;
-    height: fit-content;
+    height: 225px;
     margin: 0;
 
     display: flex;
@@ -364,7 +365,7 @@
     height: 255px;
   }
   .grid-container p, .grid-container2 p {
-    margin-top: 25px;
+    padding-top: 25px;
   }
 }
 
