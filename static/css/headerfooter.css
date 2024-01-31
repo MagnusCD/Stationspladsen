@@ -349,6 +349,8 @@ color: white;
 }
 .footer-btn2 {
   font-size: 150%;
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 .topnav-button1, .topnav-button2
 {
