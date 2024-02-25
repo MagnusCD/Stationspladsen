@@ -8,7 +8,7 @@ img {
 .nyheder-header {
   color: white;
   width: 600px;
-  background-color: #0b0535;
+  background-color: #DDAA44;
   margin: 0 auto;
   margin-top: 200px;
   text-align: center;
@@ -31,7 +31,6 @@ img {
 
   .nyheder-header {
     color: white;
-    background-color: #DDAA44;
     text-align: center;
     margin-top: 200px;
     width: 300px;
