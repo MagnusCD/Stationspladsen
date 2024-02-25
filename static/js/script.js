@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var nyhederHeader = document.querySelector('.nyheder-header');
 
       if (nyhederHeader) {
-          nyhederHeader.style.width = fbBoxWidth; // Set the width of nyheder-header to match the fbBoxWidth
+          nyhederHeader.style.width = 600; // Set the width of nyheder-header to match the fbBoxWidth
       }
   }
 
