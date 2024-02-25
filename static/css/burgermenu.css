@@ -29,8 +29,10 @@
     position: absolute;
     height: 7px;
     width: 80%;
-    background: #0b0535;
-    outline: white;
+    
+    border: 2px solid black;
+    width: 80%;
+    background: #fefee2;
  
     border-radius: 9px;
     opacity: 1;
