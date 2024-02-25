@@ -32,21 +32,22 @@ window.addEventListener("scroll", reveal);
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  function updateFacebookBoxWidth() {
-      var fbBox = document.querySelector('.fb-like-box');
-      if (window.innerWidth > 1100) {
-          fbBox.setAttribute('data-width', '600');
-      } else {
-          fbBox.setAttribute('data-width', '300');
+  function updateElementWidths() {
+      var fbBoxWidth = window.innerWidth > 1100 ? '600px' : '300px'; // Determine the width based on the viewport
+      var nyhederHeader = document.querySelector('.nyheder-header');
+
+      if (nyhederHeader) {
+          nyhederHeader.style.width = fbBoxWidth; // Set the width of nyheder-header to match the fbBoxWidth
       }
   }
 
   // Call the function on initial load
-  updateFacebookBoxWidth();
+  updateElementWidths();
 
   // Add event listener for window resize
-  window.addEventListener('resize', updateFacebookBoxWidth);
+  window.addEventListener('resize', updateElementWidths);
 });
+
 
 
 
