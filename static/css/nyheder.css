@@ -16,6 +16,9 @@ img {
 
 .fb-container {
   margin: 0;
+  background-color: antiquewhite;
+  width: 600;
+  box-shadow: #000000;
 }
 
 
