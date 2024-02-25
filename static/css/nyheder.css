@@ -23,11 +23,6 @@ margin-top: -5px;
 }
 
 @media screen and (max-width: 1100px) {
-  .wrapper {
-  min-height: 100%;
-
-  overflow: hidden;
-  }
   .copyright-container {
     margin-top: 0px;
   }
