@@ -217,8 +217,8 @@
 }
 
 #Maps {
-  width: 80%;
-  height: 20vw;
+  width: 800px;
+  height: 400px;
   display: flex;
   left:0;
   right:0;
@@ -340,13 +340,12 @@
   }
   
   #Maps {
-  width: 90%;
-  height: 40vw;
+  width: 80%;
   }
 }
 
 .åbningstider {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .line {
