@@ -48,6 +48,22 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('resize', updateElementWidths);
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  function updateFacebookBoxWidth() {
+      var fbBox = document.querySelector('.fb-like-box');
+      if (window.innerWidth > 1100) {
+          fbBox.setAttribute('data-width', '600');
+      } else {
+          fbBox.setAttribute('data-width', '300');
+      }
+  }
+
+  // Call the function on initial load
+  updateFacebookBoxWidth();
+
+  // Add event listener for window resize
+  window.addEventListener('resize', updateFacebookBoxWidth);
+});
 
 
 
