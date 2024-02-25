@@ -24,6 +24,7 @@ margin-top: -5px;
   .nyheder-header {
     margin: 0;
     top: 40vw;
+    width: 300px;
   }
 
   .fb-container {
@@ -34,7 +35,7 @@ margin-top: -5px;
 
 .nyheder-header {
   color: white;
-  width: 300px;
+  width: 600px;
   background-color: #0b0535;
   margin: 0 auto;
   margin-top: 150px;
