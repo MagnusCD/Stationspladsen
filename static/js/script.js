@@ -28,6 +28,8 @@ function reveal() {
   }
 }
 
+window.addEventListener("scroll", reveal);
+
 document.addEventListener('DOMContentLoaded', function() {
   function updateFacebookBoxWidth() {
       var fbBox = document.querySelector('.fb-like-box');
