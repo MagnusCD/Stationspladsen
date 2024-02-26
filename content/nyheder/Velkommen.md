@@ -6,4 +6,3 @@ author = "Stationspladsen"
 tags = []
 +++
 
-Her vil du finde de mest nylige nyheder og opdateringer fra caféen.
