@@ -57,10 +57,48 @@ function eraseCookie(name) {
 
 function cookieConsent() {
   if (!getCookie('purecookieDismiss')) {
-    document.body.innerHTML += '<div class="cookieConsentContainer" id="cookieConsentContainer"><div class="cookieTitle"><a>' + purecookieTitle + '</a></div><div class="cookieDesc"><p>' + purecookieDesc + ' ' + purecookieLink + '</p></div><div class="cookieButton"><a onClick="purecookieDismiss();">' + purecookieButton + '</a></div></div>';
-	pureFadeIn("cookieConsentContainer");
+    // Create the container div
+    var consentContainer = document.createElement('div');
+    consentContainer.className = 'cookieConsentContainer';
+    consentContainer.id = 'cookieConsentContainer';
+
+    // Create the title
+    var title = document.createElement('div');
+    title.className = 'cookieTitle';
+    title.innerHTML = '<a>' + purecookieTitle + '</a>';
+
+    // Create the description
+    var desc = document.createElement('div');
+    desc.className = 'cookieDesc';
+    desc.innerHTML = '<p>' + purecookieDesc + ' ' + purecookieLink + '</p>';
+
+    // Create the button
+    var button = document.createElement('div');
+    button.className = 'cookieButton';
+    var buttonLink = document.createElement('a');
+    buttonLink.textContent = purecookieButton;
+    button.appendChild(buttonLink);
+
+    // Append all parts to the container
+    consentContainer.appendChild(title);
+    consentContainer.appendChild(desc);
+    consentContainer.appendChild(button);
+
+    // Append the container to the body
+    document.body.appendChild(consentContainer);
+
+    // Fade in effect
+    pureFadeIn("cookieConsentContainer");
+
+    // Attach event listener to the button instead of using onClick
+    buttonLink.addEventListener('click', function() {
+      purecookieDismiss();
+    });
   }
 }
+
+// Make sure pureFadeIn, purecookieDismiss, getCookie, purecookieTitle, purecookieDesc, purecookieLink, and purecookieButton are defined somewhere in your scripts.
+
 
 function purecookieDismiss() {
   setCookie('purecookieDismiss','1',7);
